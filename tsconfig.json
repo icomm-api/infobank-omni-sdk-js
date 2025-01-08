@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",  // Rollup과 함께 사용하기 위해 ESNext로 설정
+    "moduleResolution": "node",
+    "declaration": true,  // .d.ts 파일을 생성합니다.
+    "outDir": "./dist",  // 출력 디렉토리
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "src/builders/send/.ts"],
+  "exclude": ["node_modules", "dist"]
+}
