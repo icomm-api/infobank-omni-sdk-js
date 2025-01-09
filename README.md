@@ -1,6 +1,6 @@
 # infobank-omni-sdk-js v1.0.0
 ---
-[![SDK Documentation](https://img.shields.io/badge/SDK-Documentation-blue)](https://aws.github.io/aws-sdk-go-v2/docs/) [![Migration Guide](https://img.shields.io/badge/Migration-Guide-blue)](https://aws.github.io/aws-sdk-go-v2/docs/migrating/) [![API Reference](https://img.shields.io/badge/api-reference-blue.svg)](https://pkg.go.dev/mod/github.com/aws/aws-sdk-go-v2) [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/aws/aws-sdk-go-v2/blob/main/LICENSE.txt)
+[![SDK Documentation](https://img.shields.io/badge/SDK-Documentation-blue)]() [![Migration Guide](https://img.shields.io/badge/Migration-Guide-blue)]() [![API Reference](https://img.shields.io/badge/api-reference-blue.svg)]() [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)]()
 
 
 infobank omni api sdk JavaScript(TypeScript) 입니다.
@@ -56,6 +56,9 @@ cd ./node_modules/omni-sdk-js
 ## 받으신 소스를 빌드합니다.
 npm i 
 npm run build
+
+## 방법 3
+npm i infobank-omni-sdk-js
 
 ```
 
