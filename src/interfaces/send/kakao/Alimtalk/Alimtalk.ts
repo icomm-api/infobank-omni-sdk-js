@@ -19,6 +19,9 @@ export interface Alimtalk {
 
   /** 알림톡 제목 (강조표기형 템플릿) */
   title?: string;
+  
+  /** 메세지 상단에 표기할 제목 */
+  header? :string;
 
   /** 첨부 정보 */
   attachment?: Attachment;

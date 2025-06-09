@@ -39,7 +39,10 @@ export class File {
   public async uploadFile(fileUploadPathParameter: FileUploadPathParameter, fileUploadRequest: FileRequestBody): Promise<FileResponseBody> {
     try {
       const response = await this.client.post<FileResponseBody>(
-       `/v1/file/${fileUploadPathParameter.serviceType}${fileUploadPathParameter.msgType ? `/${fileUploadPathParameter.msgType}` : ''}`,
+       `/v1/file/${fileUploadPathParameter.serviceType}` +
+      `${fileUploadPathParameter.msgType ? `/${fileUploadPathParameter.msgType}` : ''}` +
+      `${fileUploadPathParameter.subType ? `/${fileUploadPathParameter.subType}` : ''}`
+      , 
         fileUploadRequest
       );
       return response.data;

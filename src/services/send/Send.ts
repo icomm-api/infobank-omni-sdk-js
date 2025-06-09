@@ -2,6 +2,7 @@ import axios, { AxiosInstance } from 'axios';
 import { InternationalRequestBody } from '../../interfaces/send/international/InternationalRequestBody';
 import { IResponseBody } from '../../interfaces/send/IResponseBody';
 import { AlimtalkRequestBody } from '../../interfaces/send/kakao/Alimtalk/AlimtalkRequestBody';
+import { BrandMessageRequestBody } from '../../interfaces/send/kakao/BrandMessage/BrandMessageRequestBody';
 import { FriendtalkRequestBody } from '../../interfaces/send/kakao/Friendtalk/FriendtalkRequestBody';
 import { MMSRequestBody } from '../../interfaces/send/mms/MMSRequestBody';
 import { OMNIRequestBody } from '../../interfaces/send/omni/OMNIRequestBody';
@@ -116,6 +117,19 @@ export class Send {
    */
   public async Friendtalk(body: FriendtalkRequestBody): Promise<IResponseBody> {
     return this.sendRequest(`${API_VERSION}/send/friendtalk`, body);
+  }
+
+   /**
+   * Method: BrandMessage
+   * Description: 카카오 비즈메시지 브랜드메세지지 발송 규격입니다.
+   * 채널이 등록 되어있는 수신자에게만 친구톡 전송이 가능합니다.
+   * 친구톡 이미지 메시지를 전송할 경우 사전에 이미지 파일 등록(카카오 비즈메시지 센터)이 필요 합니다.
+   * 
+   * @param body - Friendtalk Request
+   * @returnsparam
+   */
+  public async BrandMessage(body: BrandMessageRequestBody): Promise<IResponseBody> {
+    return this.sendRequest(`${API_VERSION}/send/brandmessage`, body);
   }
 
   /**

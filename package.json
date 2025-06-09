@@ -1,6 +1,6 @@
 {
-  "name": "omni-sdk-js",
-  "version": "1.0.0",
+  "name": "@infobank/infobank-omni-sdk-js",
+  "version": "1.0.1",
   "description": "An ts SDK for OMNI services",
   "main": "dist/index.cjs",
   "module": "dist/index.esm.js",

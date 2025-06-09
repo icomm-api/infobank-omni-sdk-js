@@ -29,6 +29,7 @@ export * from './builders/send/kakao/Alimtalk/AlimtalkRequestBodyBuilder';
 export * from './builders/send/kakao/Alimtalk/AlimtalkSummaryBuilder';
 export * from './builders/send/kakao/Alimtalk/AlimtalkSupplementBuilder';
 
+export * from './builders/send/kakao/BrandMessage/BrandMessageBuilder';
 export * from './builders/send/kakao/Friendtalk/FriendtalkAttachmentBuilder';
 export * from './builders/send/kakao/Friendtalk/FriendtalkBuilder';
 export * from './builders/send/kakao/Friendtalk/FriendtalkCarouselBuilder';

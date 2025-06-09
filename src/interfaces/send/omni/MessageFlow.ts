@@ -1,8 +1,9 @@
-import { SMS } from "../../send/sms/SMS" 
-import { MMS } from "../../send/mms/MMS" 
-import { RCS } from "../../send/rcs/RCS" 
-import { Alimtalk } from "../kakao/Alimtalk/Alimtalk" 
-import { Friendtalk } from "../kakao/Friendtalk/Friendtalk" 
+import { Alimtalk } from "../kakao/Alimtalk/Alimtalk"
+import { BrandMessage } from "../kakao/BrandMessage/BrandMessage"
+import { Friendtalk } from "../kakao/Friendtalk/Friendtalk"
+import { MMS } from "../mms/MMS"
+import { RCS } from "../rcs/RCS"
+import { SMS } from "../sms/SMS"
 
  
  
@@ -21,4 +22,6 @@ import { Friendtalk } from "../kakao/Friendtalk/Friendtalk"
     alimtalk?: Alimtalk;
     /** 카카오 친구톡 메시지 세부 사항 (선택 사항) */
     friendtalk?: Friendtalk;
+    /** 카카오 브랜드드 메시지 세부 사항 (선택 사항) */
+    brandmessage?: BrandMessage;
   }

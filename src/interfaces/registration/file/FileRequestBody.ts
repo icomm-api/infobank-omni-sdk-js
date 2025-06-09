@@ -9,10 +9,25 @@ export interface FileUploadPathParameter {
     msgType?: string; 
     
     /** 
+      [친구톡]
       FI: 친구톡 이미지
       FW: 친구톡 와이드 이미지
-      FL: 친구톡 와이드 아이템 리스트 이미지
-      FC: 친구톡 캐러셀 이미지 
+      FL: 친구톡 와이드 아이템 리스트이미지
+      FC: 친구톡 캐러셀 이미지
+      FA: 친구톡 캐러셀 커머스 이미지
+
+      [브랜드 메시지]
+      defalut: 이미지
+      wide: 와이드 이미지
+      wideItemList : 와이드 리스트 이미지 업로드 요청
+      carouselFeed : 캐러셀 피드 이미지 업로드 요청
+      carouselCommerce : 캐러셀 커머스 이미지 업로드 요청
+    */
+
+      subType? : string;
+    
+    /** [브랜드 메시지]
+        first : 와이드 아이템 리스트 첫번째 이미지 
     */
   }
   
