@@ -58,7 +58,7 @@ npm i
 npm run build
 
 ## 방법 3
-npm i infobank-omni-sdk-js
+npm i @infobank/infobank-omni-sdk-js
 
 ```
 
