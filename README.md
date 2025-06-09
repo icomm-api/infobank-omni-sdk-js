@@ -34,7 +34,11 @@ node.js 와 next 환경에서 구동할 수 있으며 react 와 같은 front 환
 ```bash
 ## 소스 설치
 
+
 ## 방법 1
+npm i @infobank/infobank-omni-sdk-js
+
+## 방법 2
 ## 받으신 소스 파일을 원하는 경로에 설치합니다.
 C:/sdk/omni-sdk-js
 
@@ -46,7 +50,7 @@ npm run build
 npm install ./[다운로드한 SDK의 경로]
 
 
-## 방법 2
+## 방법 3
 ## 직접 node_module 에 복사합니다.
 cp -R ./[다운로드한 SDK의 경로] ./node_modules/omni-sdk-js
 
@@ -56,9 +60,6 @@ cd ./node_modules/omni-sdk-js
 ## 받으신 소스를 빌드합니다.
 npm i 
 npm run build
-
-## 방법 3
-npm i infobank-omni-sdk-js
 
 ```
 
