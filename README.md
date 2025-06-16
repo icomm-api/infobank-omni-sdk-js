@@ -287,7 +287,7 @@ async function send() {
             text : "test 발송입니다."
         }
 
-        const res = await omni.send?.SNS(req);
+        const res = await omni.send?.SMS(req);
         console.log('전송결과:', res);
 
         console.log(omni);
@@ -322,7 +322,7 @@ export async function POST() {
     text : "test 발송입니다."
   };
 
-  const result  = await omni.send?.SNS(req);
+  const result  = await omni.send?.SMS(req);
   return NextResponse.json({ result: result });
 }
 
