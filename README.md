@@ -1,4 +1,4 @@
-# infobank-omni-sdk-js v1.0.0
+# infobank-omni-sdk-js v1.1.0
 ---
 [![SDK Documentation](https://img.shields.io/badge/SDK-Documentation-blue)]() [![Migration Guide](https://img.shields.io/badge/Migration-Guide-blue)]() [![API Reference](https://img.shields.io/badge/api-reference-blue.svg)]() [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)]()
 
