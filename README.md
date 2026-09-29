@@ -1,3 +1,12 @@
+> [!WARNING]
+> **이 SDK는 더 이상 유지보수되지 않습니다 (deprecated).**
+> 이전 OMNI API(`omni.ibapi.kr`, ID/PW 토큰 인증) 기준 SDK입니다. 새 기능과 보안 수정은 비즈고 API(`mars.ibapi.kr`, API Key 인증) 기준의
+> **[bizgo-sdk-comm-js](https://github.com/icomm-api/bizgo-sdk-comm-js)** 에서만 제공됩니다.
+>
+> - 설치: `npm install @bizgo/bizgo-sdk-comm-js@^1.2.0`
+> - 옮기는 방법: 새 SDK README의 옮기기 안내 (API·인증 방식이 달라 코드 호환은 되지 않습니다)
+> - 이 저장소는 더 이상 업데이트되지 않으며, 예제 코드는 새 API와 호환되지 않습니다.
+
 # infobank-omni-sdk-js v1.1.0
 ---
 [![SDK Documentation](https://img.shields.io/badge/SDK-Documentation-blue)]() [![Migration Guide](https://img.shields.io/badge/Migration-Guide-blue)]() [![API Reference](https://img.shields.io/badge/api-reference-blue.svg)]() [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)]()
@@ -313,7 +322,7 @@ export async function POST() {
   const omni = new OMNI(option);
 
   /* Builder를 사용하여 생성 */
-  const req = new SMSRequestBodyBuilder().setFrom("0310000000").setTo("01012364566").setText("test 발송입니다.").build();
+  const req = new SMSRequestBodyBuilder().setFrom("0310000000").setTo("01000000000").setText("test 발송입니다.").build();
 
   /* JSON 사용하여 생성 */
   const req = {
